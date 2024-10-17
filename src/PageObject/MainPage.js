@@ -31,11 +31,6 @@ class MainPage {
     expect(trackVisible).toBe(true);
   }
 
-  async searchAndVerifyRandomTrack() {
-    const trackName = await this.searchRandomTrack();
-    await this.verifySearchedTrackIsDisplayed(trackName);
-  }
-
   async addTrackByName() {
     const allTracks = await this.getAllTracks();
     const randomTrack = allTracks[Math.floor(Math.random() * allTracks.length)];
