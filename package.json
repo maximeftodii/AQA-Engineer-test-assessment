@@ -1,0 +1,26 @@
+{
+  "name": "aqa-engineer-test-assessment-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "lint": "eslint '**/*.js' --fix",
+    "format": "prettier --write '**/*.js'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.48.1",
+    "playwright": "^1.48.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.12.0",
+    "dotenv": "^16.4.5",
+    "eslint": "^9.12.0",
+    "eslint-plugin-react": "^7.37.1",
+    "globals": "^15.11.0",
+    "prettier": "^3.3.3"
+  }
+}
